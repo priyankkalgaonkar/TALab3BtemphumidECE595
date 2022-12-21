@@ -1,0 +1,16 @@
+?clangd
+?mbed
+compile_commands?json
+?cache
+mbed
+BUILD
+EthernetInterface/Socket
+EthernetInterface/lwip-eth
+EthernetInterface/lwip-sys
+EthernetInterface/lwip
+EthernetInterface
+FXAS21002
+FXOS8700
+M2XStreamClient
+jsonlite
+mbed-rtos

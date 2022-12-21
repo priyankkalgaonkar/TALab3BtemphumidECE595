@@ -42,11 +42,11 @@ FXOS8700 mag(D14,D15);
 FXAS21002 gyro(D14,D15);
 
 // Set Sensor Stream details
-char deviceId[] = "8b34bc421abf15b7ec6471fa19513a98"; // Device you want to push to
+char deviceId[] = "5ea9eda79acc71ca425faba5ac3ba85a"; // Device you want to push to
 char streamAcc[] = "acc_rms"; // Stream you want to push to
 char streamMag[] = "mag_rms"; // Stream you want to push to
 char streamGyr[] = "gyr_rms"; // Stream you want to push to
-char m2xKey[] = "737018ea33de7760ab346c85ae2d9d27"; // Your M2X API Key or Master API Key
+char m2xKey[] = "5d52815be48c739fdd0f2a743bee3309"; // Your M2X API Key or Master API Key
 
 int main()
 {
